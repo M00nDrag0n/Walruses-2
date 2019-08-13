@@ -7,15 +7,17 @@ body {
   position: relative;
   height: 475px;
   width: 825px;
+  margin: none;
 
 }
 
 .visible {
   display: none;
+  margin: none;
 }
 
-  .invisible {
-
+  .invisible-2 {
+    display: none;
   }
 
 
@@ -27,4 +29,67 @@ body {
 .clickable {
   cursor: pointer;
   color: #0088cc;
+}
+
+#img-1 img {
+
+  position: absolute;
+  top: 500px;
+  left: -170px;
+  height: 600px;
+  length: 1750px;
+  transform: rotate(90deg);
+
+}
+
+#img-2 img {
+
+  position: absolute;
+  left: 482px;
+  top: 330px;
+  height: 50px;
+  length: 150px;
+  transform: rotate(350deg);
+}
+
+#img-3 img {
+
+  position: absolute;
+  left: 500px;
+  top: 500px;
+  height: 50px;
+  length: 150px;
+  transform: rotate(350deg);
+}
+
+#img-4 img {
+
+  position: absolute;
+  left: 302px;
+  top: 564px;
+  height: 50px;
+  length: 150px;
+  transform: rotate(350deg);
+}
+
+#img-5 img {
+
+  position: absolute;
+  left: 456px;
+  top: 824px;
+  height: 150px;
+  length: 150px;
+  transform: rotate(150deg);
+
+}
+
+#img-6 img {
+
+  position: absolute;
+  left: 617px;
+  top: 701px;
+  height: 50px;
+  length: 150px;
+  transform: rotate(350deg);
+
 }
