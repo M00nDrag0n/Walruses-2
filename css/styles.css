@@ -1,0 +1,28 @@
+body {
+  font-family: 'Spectral';
+  font-size: 19px;
+}
+
+.visible img {
+  position: relative;
+  height: 475px;
+  width: 825px;
+
+}
+
+.visible {
+  display: none;
+}
+
+  .invisible {
+
+  }
+
+p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
